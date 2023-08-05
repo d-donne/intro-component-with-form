@@ -45,7 +45,7 @@ function checkInput() {
     if (password.length < 1) {
         setError(pass, "Password cannot be empty");
     } else {
-        setSucccess(pass);
+        setSuccess(pass);
     }
 }
 
